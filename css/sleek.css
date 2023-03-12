@@ -47,7 +47,7 @@ video {
 	position: absolute;
 	height: 50px;
 	width: 100%;
-	top: 25%;
+	top: 40%;
 	text-align: center;
 	margin-top: -25px;
 	font-size: 20px; 
@@ -69,7 +69,7 @@ video {
 #messages {
 	display: none;
 	margin-top: 20px;
-	font-size: 30px; /* 18px */
+	font-size: 25px; /* 18px */
 }
 
 #subtitle {
