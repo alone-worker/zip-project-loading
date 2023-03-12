@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,17 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/loading_1.jpg",
+	"backgrounds/images/loading_2.jpg",
+	"backgrounds/images/loading_3.jpg",
+	"backgrounds/images/loading_4.jpg",
+	"backgrounds/images/loading_5.jpg",
+	"backgrounds/images/loading_6.jpg",
+	"backgrounds/images/loading_7.jpg",
+	"backgrounds/images/loading_8.jpg",
+	"backgrounds/images/loading_9.jpg",
+	"backgrounds/images/loading_10.jpg",
+	"backgrounds/images/loading_11.jpg",
 ];
 
 /*Random background images order?*/
@@ -69,18 +77,18 @@ in milliseconds*/
 var l_bgImageFadeVelocity = 2000;
 
 /*Enable background overlay?*/
-var l_bgOverlay = true;
+var l_bgOverlay = false;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 50;
+var l_bgDarkening = 0;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = true;
+var l_music = false;
 
 /*Display actual song's name?*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
